@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #c78ebe;
+  display: -ms-grid;
+  display: grid;
+}
+
+h2 {
+  color: #75c8dc;
+  font-weight: bolder;
+}
+
+.header__logo img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.header .menu li {
+  padding: 0.7rem;
+  margin: 0.7rem;
+}
+
+.header .menu a {
+  color: #c78ebe;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header .menu a:hover {
+  font-weight: bolder;
+}
+
+.caja {
+  margin: 1rem;
+}
+
+.caja__gifHome .gifHome {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 1rem;
+}
+
+.caja__gifHome .gifHome img {
+  width: 100%;
+  height: 100%;
+}
+
+.caja__gifHome .aparecer {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.productos h2 {
+  text-align: center;
+  color: #75c8dc;
+  font-size: 33px;
+  font-family: "Montserrat", 300;
+  padding: 20px;
+}
+
+.productos__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+.footer2 {
+  margin: 10px 150px;
+}
+
+.footer2__registro {
+  padding: 20px;
+  font-size: 14;
+  text-align: center;
+}
+/*# sourceMappingURL=estilo.css.map */

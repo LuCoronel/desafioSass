@@ -1,0 +1,26 @@
+.header{
+    &__logo img{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+        li{
+            padding: 0.7rem;
+            margin: 0.7rem;
+        }
+            a{
+                color: $color_rosa;
+                text-decoration: none;
+                padding: 10px;
+                &:hover{
+                    font-weight: bolder; 
+                }
+            }
+    }  
+}

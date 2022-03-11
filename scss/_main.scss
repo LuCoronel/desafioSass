@@ -1,0 +1,44 @@
+.caja{
+    margin: 1rem;
+    &__gifHome{
+        .gifHome{
+            padding: 1rem;
+            display: flex;
+            padding-right: 1rem;
+          }
+          .gifHome img {
+            width: 100%;
+            height: 100%;
+          }
+          .aparecer{
+            animation-duration: 3s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+          }
+          @keyframes aparecer {
+            0% {
+                opacity: 0;
+                }
+            50% {
+                opacity: 1;
+                }
+            100% {
+              opacity: 0;
+                }
+          }
+    }
+}
+.productos{
+        h2{
+            text-align: center;
+            color: $color_celeste;
+            font-size: 33px;
+            font-family: "Montserrat", 300;
+            padding: 20px;
+        }
+        &__imagen{
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+}
